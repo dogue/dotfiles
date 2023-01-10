@@ -1,0 +1,9 @@
+import:
+  - ~/.alacritty-colorscheme/themes/ayu_dark.yaml
+
+colors:
+  primary:
+    background: '0x121212'
+
+font:
+  size: 13.0
