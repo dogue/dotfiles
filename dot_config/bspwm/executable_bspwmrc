@@ -4,7 +4,6 @@
 pool
 
 # Unfuck the monitors
-#xrandr --output DP-0 --rotate normal
 bash ~/.screenlayout/corrected_right.sh
 
 # Hide mouse unless moved
@@ -22,9 +21,9 @@ hsetroot -solid "#272822"
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 #bspc monitor -d I II III IV V VI VII VIII IX X
-bspc monitor DP-2 -d I II
-bspc monitor DP-4 -d III IV
-bspc monitor DP-0 -d V VI
+bspc monitor DP-2 -d I 
+bspc monitor DP-4 -d II
+bspc monitor DP-0 -d III 
 
 bspc config border_width         4
 bspc config window_gap          10
