@@ -1,17 +1,20 @@
+# A custom theme that doesn't cause retinal cancer
 theme = "nightman"
 
 [editor]
 line-number = "relative"
 mouse = false
-scrolloff = 10
-cursorline = true
-bufferline = "multiple"
+scrolloff = 10          # Keep this many lines below/above the cursor
+cursorline = true       # Highlight lines with a cursor
+bufferline = "multiple" # Show list of open buffers up top if more than one currently open
 
+# Essentially have the cursor act as a mode indicator
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
+# Show LSP messages below statusline
 [editor.lsp]
 display-messages = true
 
@@ -25,6 +28,7 @@ render = true
 right = ["diagnostics", "separator", "position", "separator", "file-type"]
 separator = "|"
 
+# Shortcuts for cargo shenanigans
 [keys.normal.space.c]
 label = "Cargo"
 f = { label = "Format", command = ":sh cargo fmt" }
