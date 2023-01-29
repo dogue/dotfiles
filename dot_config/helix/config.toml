@@ -1,0 +1,17 @@
+theme = "nightman"
+
+[editor.statusline]
+right = ["diagnostics", "separator", "position", "separator", "file-type"]
+separator = "|"
+
+[keys.normal.space.c]
+label = "Cargo"
+f = { label = "Format", command = ":sh cargo fmt" }
+d = { label = "Doc", command = ":sh cargo doc" }
+D = { label = "Doc (open)", command = ":sh cargo doc --open" }
+c = { label = "Check", command = ":sh cargo check" }
+b = { label = "Build (debug)", command = ":sh cargo build" }
+B = { label = "Build (release)", command = ":sh cargo build --release" }
+
+[keys.normal.space]
+e = { label = "Edit config", command = ":open ~/.config/helix/config.toml" }

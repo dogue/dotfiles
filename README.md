@@ -6,6 +6,7 @@ Managed with chezmoi
 - Oh-My-ZSH based `.zshrc`
 - Triple monitor bspwm
 - Nvim as an IDE (shoutout to ThePrimeagen)
+- Test driving helix-editor (config is currently not compatible with release version [see this PR](https://github.com/helix-editor/helix/pull/3958))
 - Alacritty colors
 - Qutebrowser configured to open Youtube links in MPV (with `,v` hints)
 
