@@ -12,7 +12,7 @@
 "comment" = { fg = "gray", modifiers = ["italic"] }
 "variable" = "foreground"
 "label" = "orange"
-"punctuation" = "foreground"
+"punctuation" = "#8c947d"
 "keyword" = "orange"
 "keyword.control" = "yellow"
 "keyword.directive" = "yellow"

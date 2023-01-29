@@ -1,9 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
 export EDITOR=hx
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/dogue/.oh-my-zsh"
-
 export PICO_SDK_PATH=/usr/share/pico-sdk
 
 # Set name of the theme to load --- if set to "random", it will
@@ -73,7 +73,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git rust python)
-
+VI_MODE_SET_CURSOR=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

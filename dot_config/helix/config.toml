@@ -31,12 +31,21 @@ separator = "|"
 # Shortcuts for cargo shenanigans
 [keys.normal.space.c]
 label = "Cargo"
-f = { label = "Format", command = ":sh cargo fmt" }
+f = { label = "Format", command = ":format" }
 d = { label = "Doc", command = ":sh cargo doc" }
 D = { label = "Doc (open)", command = ":sh cargo doc --open" }
 c = { label = "Check", command = ":sh cargo check" }
 b = { label = "Build (debug)", command = ":sh cargo build" }
 B = { label = "Build (release)", command = ":sh cargo build --release" }
 
-[keys.normal.space]
+[keys.normal.space.e]
+label = "Config actions"
 e = { label = "Edit config", command = ":open ~/.config/helix/config.toml" }
+r = { label = "Reload config", command = ":config-reload" }
+t = { label = "Edit theme", command = ":open ~/.config/helix/themes/nightman.toml" }
+
+# Commands for inserting stuff
+[keys.normal.space.i]
+label = "Insertions"
+t = { label = "Timestamp", command = ":insert-output date" }
+s = { label = "Struct", command = ":insert-output cat ~/.local/share/dogue-snippets/struct" }
