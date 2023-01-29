@@ -1,5 +1,26 @@
 theme = "nightman"
 
+[editor]
+line-number = "relative"
+mouse = false
+scrolloff = 10
+cursorline = true
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+max-depth = 5
+
+[editor.indent-guides]
+render = true
+
 [editor.statusline]
 right = ["diagnostics", "separator", "position", "separator", "file-type"]
 separator = "|"

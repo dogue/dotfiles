@@ -36,7 +36,7 @@
 "ui.cursor" = { fg = "dark_gray", bg = "orange" }
 "ui.cursor.match" = "orange"
 "ui.linenr" = "dark_gray"
-"ui.linenr.selected" = "gray"
+"ui.linenr.selected" = "orange"
 "ui.statusline" = { fg = "foreground", bg = "black" }
 "ui.cursorline" = { bg = "black" }
 "ui.popup" = { fg = "#7B91b3", bg = "black" }

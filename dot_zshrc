@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
-
+export EDITOR=hx
 # Path to your oh-my-zsh installation.
 export ZSH="/home/dogue/.oh-my-zsh"
 
@@ -197,7 +197,7 @@ function mkcd() {
 alias idf='idf.py'
 alias ls='exa'
 alias cat='bat'
-alias vim='nvim'
+alias vim='hx'
 . /opt/asdf-vm/asdf.sh
 
 eval "$(zoxide init zsh)"
