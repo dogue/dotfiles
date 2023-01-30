@@ -17,6 +17,7 @@ select = "underline"
 # Show LSP messages below statusline
 [editor.lsp]
 display-messages = true
+display-signature-help-docs = false
 
 [editor.file-picker]
 max-depth = 5
