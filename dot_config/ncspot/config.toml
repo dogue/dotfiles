@@ -1,0 +1,13 @@
+volnorm = true
+hide_display_names = true
+
+[theme]
+background = "#121212"
+primary = "#bfbdb6"
+playing = "#ff8f40"
+highlight = "#0a0a0a"
+highlight_bg = "#aad94c"
+playing_selected = "#0a0a0a"
+cmdline = "#0a0a0a"
+cmdline_bg = "#bfbdb6"
+title = "#ff8f40"
