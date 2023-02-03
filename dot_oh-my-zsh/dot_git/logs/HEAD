@@ -1,0 +1,73 @@
+0000000000000000000000000000000000000000 e32d4b1e195f4c7777844beea97af42bd93434eb Dogue <dogue@oddhelix.com> 1625610057 -0400	clone: from https://github.com/ohmyzsh/ohmyzsh.git
+e32d4b1e195f4c7777844beea97af42bd93434eb e32d4b1e195f4c7777844beea97af42bd93434eb Dogue <dogue@oddhelix.com> 1626731068 -0400	pull --rebase --stat origin master: updating HEAD
+e32d4b1e195f4c7777844beea97af42bd93434eb dac3314c76e799cddbbe5cf63870d31861626059 Dogue <dogue@oddhelix.com> 1626731068 -0400	pull --rebase --stat origin master: checkout dac3314c76e799cddbbe5cf63870d31861626059
+dac3314c76e799cddbbe5cf63870d31861626059 dac3314c76e799cddbbe5cf63870d31861626059 Dogue <dogue@oddhelix.com> 1626731068 -0400	rebase finished: refs/heads/master onto dac3314c76e799cddbbe5cf63870d31861626059
+dac3314c76e799cddbbe5cf63870d31861626059 dac3314c76e799cddbbe5cf63870d31861626059 dogue <dogue@gemini.(none)> 1627776477 -0400	pull --rebase --stat origin master: updating HEAD
+dac3314c76e799cddbbe5cf63870d31861626059 5377cc37c0f71fe22484303a4c6f387aa339f3f5 dogue <dogue@gemini.(none)> 1627776477 -0400	pull --rebase --stat origin master (start): checkout 5377cc37c0f71fe22484303a4c6f387aa339f3f5
+5377cc37c0f71fe22484303a4c6f387aa339f3f5 5377cc37c0f71fe22484303a4c6f387aa339f3f5 dogue <dogue@gemini.(none)> 1627776477 -0400	pull --rebase --stat origin master (finish): returning to refs/heads/master
+5377cc37c0f71fe22484303a4c6f387aa339f3f5 5377cc37c0f71fe22484303a4c6f387aa339f3f5 Dogue <dogue@oddhelix.com> 1628906411 -0400	pull --rebase --stat origin master: updating HEAD
+5377cc37c0f71fe22484303a4c6f387aa339f3f5 af6c7f3d6782cf0a34e4e68f661df526d35795be Dogue <dogue@oddhelix.com> 1628906411 -0400	pull --rebase --stat origin master (start): checkout af6c7f3d6782cf0a34e4e68f661df526d35795be
+af6c7f3d6782cf0a34e4e68f661df526d35795be af6c7f3d6782cf0a34e4e68f661df526d35795be Dogue <dogue@oddhelix.com> 1628906411 -0400	pull --rebase --stat origin master (finish): returning to refs/heads/master
+af6c7f3d6782cf0a34e4e68f661df526d35795be af6c7f3d6782cf0a34e4e68f661df526d35795be Dogue <dogue@oddhelix.com> 1630112609 -0400	pull --rebase --stat origin master: updating HEAD
+af6c7f3d6782cf0a34e4e68f661df526d35795be 190325049ef93731ab28295dbedf36d44ab33d7a Dogue <dogue@oddhelix.com> 1630112609 -0400	pull --rebase --stat origin master (start): checkout 190325049ef93731ab28295dbedf36d44ab33d7a
+190325049ef93731ab28295dbedf36d44ab33d7a 190325049ef93731ab28295dbedf36d44ab33d7a Dogue <dogue@oddhelix.com> 1630112609 -0400	pull --rebase --stat origin master (finish): returning to refs/heads/master
+190325049ef93731ab28295dbedf36d44ab33d7a 190325049ef93731ab28295dbedf36d44ab33d7a Dogue <dogue@oddhelix.com> 1632545434 -0400	pull --rebase --stat origin master: updating HEAD
+190325049ef93731ab28295dbedf36d44ab33d7a 2ea1fa6cbfc6340463906dfed589d5c976a10abb Dogue <dogue@oddhelix.com> 1632545434 -0400	pull --rebase --stat origin master (start): checkout 2ea1fa6cbfc6340463906dfed589d5c976a10abb
+2ea1fa6cbfc6340463906dfed589d5c976a10abb 2ea1fa6cbfc6340463906dfed589d5c976a10abb Dogue <dogue@oddhelix.com> 1632545434 -0400	pull --rebase --stat origin master (finish): returning to refs/heads/master
+2ea1fa6cbfc6340463906dfed589d5c976a10abb 2ea1fa6cbfc6340463906dfed589d5c976a10abb Dogue <dogue@oddhelix.com> 1633653747 -0400	checkout: moving from master to master
+2ea1fa6cbfc6340463906dfed589d5c976a10abb dc83d0b7204cf66315471e980729490813b7d915 Dogue <dogue@oddhelix.com> 1633653748 -0400	pull --rebase --stat origin master: Fast-forward
+dc83d0b7204cf66315471e980729490813b7d915 dc83d0b7204cf66315471e980729490813b7d915 Dogue <dogue@oddhelix.com> 1633653749 -0400	checkout: moving from master to master
+dc83d0b7204cf66315471e980729490813b7d915 dc83d0b7204cf66315471e980729490813b7d915 Dogue <dogue@oddhelix.com> 1635106883 -0400	checkout: moving from master to master
+dc83d0b7204cf66315471e980729490813b7d915 f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 Dogue <dogue@oddhelix.com> 1635106885 -0400	pull --rebase --stat origin master: Fast-forward
+f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 Dogue <dogue@oddhelix.com> 1635121370 -0400	checkout: moving from master to master
+f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 Dogue <dogue@oddhelix.com> 1636821864 -0500	checkout: moving from master to master
+f1dd97bb2a9df55fae9b1ca26c829b9f8b290667 b3ba9978cc42a5031c7b68e3cf917ec2e64643bc Dogue <dogue@oddhelix.com> 1636821864 -0500	pull --rebase --stat origin master: Fast-forward
+b3ba9978cc42a5031c7b68e3cf917ec2e64643bc b3ba9978cc42a5031c7b68e3cf917ec2e64643bc Dogue <dogue@oddhelix.com> 1636821865 -0500	checkout: moving from master to master
+b3ba9978cc42a5031c7b68e3cf917ec2e64643bc b3ba9978cc42a5031c7b68e3cf917ec2e64643bc Dogue <dogue@oddhelix.com> 1638115858 -0500	checkout: moving from master to master
+b3ba9978cc42a5031c7b68e3cf917ec2e64643bc bf303965e685489f2f1b764d5d22dc4766ca78c8 Dogue <dogue@oddhelix.com> 1638115859 -0500	pull --rebase --stat origin master: Fast-forward
+bf303965e685489f2f1b764d5d22dc4766ca78c8 bf303965e685489f2f1b764d5d22dc4766ca78c8 Dogue <dogue@oddhelix.com> 1638115859 -0500	checkout: moving from master to master
+bf303965e685489f2f1b764d5d22dc4766ca78c8 bf303965e685489f2f1b764d5d22dc4766ca78c8 Dogue <dogue@oddhelix.com> 1639267607 -0500	checkout: moving from master to master
+bf303965e685489f2f1b764d5d22dc4766ca78c8 5b987e59d0fce1a74bcfd51750c6f52d7c29c647 Dogue <dogue@oddhelix.com> 1639267608 -0500	pull --rebase --stat origin master: Fast-forward
+5b987e59d0fce1a74bcfd51750c6f52d7c29c647 5b987e59d0fce1a74bcfd51750c6f52d7c29c647 Dogue <dogue@oddhelix.com> 1639267608 -0500	checkout: moving from master to master
+5b987e59d0fce1a74bcfd51750c6f52d7c29c647 5b987e59d0fce1a74bcfd51750c6f52d7c29c647 Dogue <dogue@oddhelix.com> 1642264984 -0500	checkout: moving from master to master
+5b987e59d0fce1a74bcfd51750c6f52d7c29c647 1e277553bcc9f23a904bf728013df6ebfe339e74 Dogue <dogue@oddhelix.com> 1642264984 -0500	pull --rebase --stat origin master: Fast-forward
+1e277553bcc9f23a904bf728013df6ebfe339e74 1e277553bcc9f23a904bf728013df6ebfe339e74 Dogue <dogue@oddhelix.com> 1642264985 -0500	checkout: moving from master to master
+1e277553bcc9f23a904bf728013df6ebfe339e74 1e277553bcc9f23a904bf728013df6ebfe339e74 Dogue <dogue@oddhelix.com> 1643411125 -0500	checkout: moving from master to master
+1e277553bcc9f23a904bf728013df6ebfe339e74 eabec36586f990b883e7dbf4583e6d86ac46c7ea Dogue <dogue@oddhelix.com> 1643411125 -0500	pull --rebase origin master: Fast-forward
+eabec36586f990b883e7dbf4583e6d86ac46c7ea eabec36586f990b883e7dbf4583e6d86ac46c7ea Dogue <dogue@oddhelix.com> 1643411125 -0500	checkout: moving from master to master
+eabec36586f990b883e7dbf4583e6d86ac46c7ea eabec36586f990b883e7dbf4583e6d86ac46c7ea Dogue <dogue@oddhelix.com> 1645494880 -0500	checkout: moving from master to master
+eabec36586f990b883e7dbf4583e6d86ac46c7ea b00b59364a019894ee4b9ba4062d922fedaa5ccd Dogue <dogue@oddhelix.com> 1645494881 -0500	pull --quiet --rebase origin master: Fast-forward
+b00b59364a019894ee4b9ba4062d922fedaa5ccd b00b59364a019894ee4b9ba4062d922fedaa5ccd Dogue <dogue@oddhelix.com> 1645494881 -0500	checkout: moving from master to master
+b00b59364a019894ee4b9ba4062d922fedaa5ccd b00b59364a019894ee4b9ba4062d922fedaa5ccd Dogue <dogue@oddhelix.com> 1647222716 -0400	checkout: moving from master to master
+b00b59364a019894ee4b9ba4062d922fedaa5ccd c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 Dogue <dogue@oddhelix.com> 1647222717 -0400	pull --quiet --rebase origin master: Fast-forward
+c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 Dogue <dogue@oddhelix.com> 1647222717 -0400	checkout: moving from master to master
+c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 Dogue <dogue@oddhelix.com> 1649376409 -0400	checkout: moving from master to master
+c10241f3d1d7bf77d483e11869a6a00f1d2e5e88 b3999a4b156185b617a5608317497399f88dc8fe Dogue <dogue@oddhelix.com> 1649376410 -0400	pull --quiet --rebase origin master: Fast-forward
+b3999a4b156185b617a5608317497399f88dc8fe b3999a4b156185b617a5608317497399f88dc8fe Dogue <dogue@oddhelix.com> 1649376410 -0400	checkout: moving from master to master
+b3999a4b156185b617a5608317497399f88dc8fe b3999a4b156185b617a5608317497399f88dc8fe Dogue <dogue@oddhelix.com> 1650575798 -0400	checkout: moving from master to master
+b3999a4b156185b617a5608317497399f88dc8fe a26d72baa27a46cfd2f35afa789529dccf7fc212 Dogue <dogue@oddhelix.com> 1650575798 -0400	pull --quiet --rebase origin master: Fast-forward
+a26d72baa27a46cfd2f35afa789529dccf7fc212 a26d72baa27a46cfd2f35afa789529dccf7fc212 Dogue <dogue@oddhelix.com> 1650575798 -0400	checkout: moving from master to master
+a26d72baa27a46cfd2f35afa789529dccf7fc212 a26d72baa27a46cfd2f35afa789529dccf7fc212 Dogue <dogue@oddhelix.com> 1651955638 -0400	checkout: moving from master to master
+a26d72baa27a46cfd2f35afa789529dccf7fc212 8f56a8bdf39d7727ab0e220f0164f78c77f9c50e Dogue <dogue@oddhelix.com> 1651955639 -0400	pull --quiet --rebase origin master: Fast-forward
+8f56a8bdf39d7727ab0e220f0164f78c77f9c50e 8f56a8bdf39d7727ab0e220f0164f78c77f9c50e Dogue <dogue@oddhelix.com> 1651955639 -0400	checkout: moving from master to master
+8f56a8bdf39d7727ab0e220f0164f78c77f9c50e 8f56a8bdf39d7727ab0e220f0164f78c77f9c50e Dogue <dogue@oddhelix.com> 1653957956 -0400	checkout: moving from master to master
+8f56a8bdf39d7727ab0e220f0164f78c77f9c50e e9e8c6b54d594109041bdd4bc3902b40f9ae8849 Dogue <dogue@oddhelix.com> 1653957957 -0400	pull --quiet --rebase origin master: Fast-forward
+e9e8c6b54d594109041bdd4bc3902b40f9ae8849 e9e8c6b54d594109041bdd4bc3902b40f9ae8849 Dogue <dogue@oddhelix.com> 1653957957 -0400	checkout: moving from master to master
+e9e8c6b54d594109041bdd4bc3902b40f9ae8849 e9e8c6b54d594109041bdd4bc3902b40f9ae8849 Dogue <dogue@oddhelix.com> 1656196687 -0400	checkout: moving from master to master
+e9e8c6b54d594109041bdd4bc3902b40f9ae8849 4c82a2eedf0c43d47601ffa8b0303ed1326fab8f Dogue <dogue@oddhelix.com> 1656196688 -0400	pull --quiet --rebase origin master: Fast-forward
+4c82a2eedf0c43d47601ffa8b0303ed1326fab8f 4c82a2eedf0c43d47601ffa8b0303ed1326fab8f Dogue <dogue@oddhelix.com> 1656196688 -0400	checkout: moving from master to master
+4c82a2eedf0c43d47601ffa8b0303ed1326fab8f 4c82a2eedf0c43d47601ffa8b0303ed1326fab8f Dogue <dogue@oddhelix.com> 1670096715 -0500	checkout: moving from master to master
+4c82a2eedf0c43d47601ffa8b0303ed1326fab8f 7ea8a93bb8fb04a070960048aa0b5dca639456a8 Dogue <dogue@oddhelix.com> 1670096716 -0500	pull --quiet --rebase origin master: Fast-forward
+7ea8a93bb8fb04a070960048aa0b5dca639456a8 7ea8a93bb8fb04a070960048aa0b5dca639456a8 Dogue <dogue@oddhelix.com> 1670096716 -0500	checkout: moving from master to master
+7ea8a93bb8fb04a070960048aa0b5dca639456a8 7ea8a93bb8fb04a070960048aa0b5dca639456a8 Dogue <dogue@oddhelix.com> 1671155594 -0500	checkout: moving from master to master
+7ea8a93bb8fb04a070960048aa0b5dca639456a8 3705edf557922f286a5054523d6d7208e2ed6f5e Dogue <dogue@oddhelix.com> 1671155595 -0500	pull --quiet --rebase origin master: Fast-forward
+3705edf557922f286a5054523d6d7208e2ed6f5e 3705edf557922f286a5054523d6d7208e2ed6f5e Dogue <dogue@oddhelix.com> 1671155595 -0500	checkout: moving from master to master
+3705edf557922f286a5054523d6d7208e2ed6f5e 3705edf557922f286a5054523d6d7208e2ed6f5e Dogue <dogue@oddhelix.com> 1672283006 -0500	checkout: moving from master to master
+3705edf557922f286a5054523d6d7208e2ed6f5e a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 Dogue <dogue@oddhelix.com> 1672283006 -0500	pull --quiet --rebase origin master: Fast-forward
+a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 Dogue <dogue@oddhelix.com> 1672283007 -0500	checkout: moving from master to master
+a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 Dogue <dogue@oddhelix.com> 1673396017 -0500	checkout: moving from master to master
+a3c579bf27b34942d4c6ad64e7cfd75788b05ea3 4181e8a2cc936bc7b7a89d674bf261023159ed35 Dogue <dogue@oddhelix.com> 1673396018 -0500	pull --quiet --rebase origin master: Fast-forward
+4181e8a2cc936bc7b7a89d674bf261023159ed35 4181e8a2cc936bc7b7a89d674bf261023159ed35 Dogue <dogue@oddhelix.com> 1673396018 -0500	checkout: moving from master to master
+4181e8a2cc936bc7b7a89d674bf261023159ed35 4181e8a2cc936bc7b7a89d674bf261023159ed35 Dogue <dogue@oddhelix.com> 1674673155 -0500	checkout: moving from master to master
+4181e8a2cc936bc7b7a89d674bf261023159ed35 657ad0523d5a29e0bdc8af0cd63c23ac597406e8 Dogue <dogue@oddhelix.com> 1674673156 -0500	pull --quiet --rebase origin master: Fast-forward
+657ad0523d5a29e0bdc8af0cd63c23ac597406e8 657ad0523d5a29e0bdc8af0cd63c23ac597406e8 Dogue <dogue@oddhelix.com> 1674673156 -0500	checkout: moving from master to master
