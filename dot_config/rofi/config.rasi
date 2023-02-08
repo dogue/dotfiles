@@ -1,5 +1,5 @@
 @theme "/usr/share/rofi/themes/Monokai.rasi"
 
 configuration {
-    modi: "window,run";
+    modi: "run";
 }
