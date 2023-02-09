@@ -202,7 +202,6 @@ alias ci='cargo init'
 alias ca='cargo add'
 alias cr='cargo run'
 alias crr='cargo run --release'
-. /opt/asdf-vm/asdf.sh
 
 eval "$(zoxide init zsh)"
 
