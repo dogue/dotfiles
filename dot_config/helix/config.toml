@@ -52,3 +52,7 @@ t = { label = "Edit theme", command = ":open ~/.config/helix/themes/nightman.tom
 label = "Insertions"
 t = { label = "Timestamp", command = ":insert-output date" }
 s = { label = "Struct", command = ":insert-output cat ~/.local/share/dogue-snippets/struct" }
+
+# Shortcut for :buffer-close
+[keys.normal.space]
+B = { label = "close buffer", command = ":buffer-close" }
