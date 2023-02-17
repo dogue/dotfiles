@@ -3,7 +3,7 @@ theme = "nightman"
 
 [editor]
 line-number = "relative"
-mouse = false
+mouse = false              # Prevent mouse clicks from moving the cursor
 scrolloff = 10          # Keep this many lines below/above the cursor
 cursorline = true       # Highlight lines with a cursor
 bufferline = "multiple" # Show list of open buffers up top if more than one currently open
@@ -19,6 +19,7 @@ select = "underline"
 display-messages = true
 display-signature-help-docs = false
 
+# File picker is slow af on large directories (aka ~)
 [editor.file-picker]
 max-depth = 5
 
@@ -39,6 +40,7 @@ c = { label = "Check", command = ":sh cargo check" }
 b = { label = "Build (debug)", command = ":sh cargo build" }
 B = { label = "Build (release)", command = ":sh cargo build --release" }
 
+# Shortcuts for quickly getting to the config/theme
 [keys.normal.space.e]
 label = "Config actions"
 e = { label = "Edit config", command = ":open ~/.config/helix/config.toml" }
