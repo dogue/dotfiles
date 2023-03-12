@@ -10,20 +10,23 @@ bash ~/.screenlayout/corrected_right.sh
 xbanish &
 
 # Start the compositor on all monitors
-DISPLAY=":0" picom &
+picom -b
 
 # Start polybar
 polybar &
 
 # Set background color
 hsetroot -solid "#121212"
+
+# Set mouse cursor shape
+xsetroot -cursor_name left_ptr
  
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 #bspc monitor -d I II III IV V VI VII VIII IX X
-bspc monitor DP-2 -d I 
-bspc monitor DP-4 -d II
-bspc monitor DP-0 -d III 
+bspc monitor DP-2 -d I II
+bspc monitor DP-4 -d III IV  
+bspc monitor DP-0 -d V VI
 
 bspc config border_width         2
 bspc config window_gap          0

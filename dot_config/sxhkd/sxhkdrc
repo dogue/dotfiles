@@ -8,7 +8,7 @@ super + alt + s
 
 # terminal emulator
 super + Return
-	alacritty
+	wezterm
 
 # program launcher
 super + @space
@@ -19,14 +19,14 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # media keys
-XF86AudioPrev
-    playerctl previous
+super + comma
+    playerctl --player=ncspot previous
 
-XF86AudioNext
-    playerctl next
+super + period
+    playerctl --player=ncspot next
 
-XF86AudioPlay
-    playerctl play-pause
+super + slash
+    playerctl --player=ncspot play-pause
 
 
 #

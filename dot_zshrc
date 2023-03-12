@@ -1,6 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/share/miniconda3/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
 export EDITOR=hx
+export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
+export SCCACHE_CACHE_SIZE="100G"
+export SCCACHE_DIR=/home/dogue/Pool/sccache
+export RUSTC_WRAPPER=sccache
+
+eval "$(/usr/bin/rtx activate zsh)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/dogue/.oh-my-zsh"
@@ -202,6 +208,22 @@ alias ci='cargo init'
 alias ca='cargo add'
 alias cr='cargo run'
 alias crr='cargo run --release'
+alias grep='rg'
 
 eval "$(zoxide init zsh)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$('/home/dogue/.local/share/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/home/dogue/.local/share/miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/dogue/.local/share/miniconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/home/dogue/.local/share/miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# # <<< conda initialize <<<
 

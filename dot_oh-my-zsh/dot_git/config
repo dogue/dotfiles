@@ -18,4 +18,4 @@
 	remote = origin
 	merge = refs/heads/master
 [oh-my-zsh]
-	lastVersion = 657ad0523d5a29e0bdc8af0cd63c23ac597406e8
+	lastVersion = 9f9d3b7d247b3c3e21542abaaf107e3d15aac1a5
