@@ -1,0 +1,85 @@
+# Syntax highlighting
+"type" = "blue"
+"type.builtin" = "light-blue"
+"constructor" = "green"
+"constant" = "magenta"
+"string" = "light-green"
+"string.regexp" = "orange"
+"string.special" = "yellow"
+"comment" = { fg = "gray"}
+"variable" = "foreground"
+"label" = "orange"
+"punctuation" = "gray"
+"keyword" = "light-blue"
+"keyword.control" = "yellow"
+"keyword.directive" = "yellow"
+"operator" = "light-cyan"
+"function" = "light-yellow"
+"tag" = "light-blue"
+"namespace" = "light-magenta"
+"markup.heading" = "yellow"
+"markup.list" = "yellow"
+"markup.raw.block" = { bg = "black", fg = "yellow" }
+"markup.link.url" = "blue"
+"markup.link.text" = "yellow"
+"markup.link.label" = "green"
+"markup.quote" = "yellow"
+"diff.plus" =  "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+# Interface
+"ui.background"= { bg = "background" }
+"ui.cursor" = { fg = "black", bg = "cursor" }
+"ui.cursor.match" = "cursor"
+"ui.linenr" = "gray"
+"ui.linenr.selected" = "light-gray"
+"ui.statusline" = { fg = "gray", bg = "bg_darkest" }
+"ui.cursorline" = { bg = "bg_darkest" }
+"ui.popup" = { fg = "light-gray", bg = "bg_dark" }
+"ui.window" = "gray"
+"ui.help" = { fg = "light-gray", bg = "black" }
+"ui.text" = "foreground"
+"ui.text.focus" = { bg = "gray", fg = "foreground" }
+"ui.text.info" = "foreground"
+"ui.virtual.whitespace" = "gray"
+"ui.virtual.ruler" = { bg = "black" }
+"ui.virtual.inlay-hint" = { fg = "gray" }
+"ui.menu" = { fg = "foreground", bg = "bg_dark" }
+"ui.menu.selected" = { bg = "light-gray", fg = "background" }
+"ui.selection" = { fg = "black", bg = "light-magenta" }
+"warning" = "light-yellow"
+"error" = { fg = "red", modifiers = ["bold"] }
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "blue", modifiers = ["bold"] }
+"diagnostic.hint" = { underline = { color = "blue", style="curl"} }
+"diagnostic.info"= { underline = { color = "blue", style="curl"} }
+"diagnostic.warning"= { underline = { color = "yellow", style="curl"} }
+"diagnostic.error"= { underline = { color = "red", style="curl"} }
+"ui.bufferline" = { fg = "light-gray", bg = "background" }
+"ui.bufferline.active" = { fg = "foreground", bg = "gray" }
+
+"special" = "yellow"
+
+[palette]
+background = "#242424"
+bg_dark = "#202020"
+bg_darkest = "#1a1a1a"
+foreground = "#ebdbb2"
+cursor = "#F27D30"
+black = "#0d0e0f"
+red = "#fb4934"
+green = "#689d6a"
+yellow = "#eebd35"
+blue = "#458588"
+magenta = "#b16286"
+cyan = "#2FA2AA"
+white = "#e7da7d"
+gray = "#665c54"
+light-red = "#cc241d"
+light-green = "#8ec07c"
+light-yellow = "#fabd2f"
+light-blue = "#7fa2ac"
+light-magenta = "#d4879c"
+light-cyan = "#46C4CD"
+light-gray = "#e7d7ad"

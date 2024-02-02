@@ -1,0 +1,111 @@
+[language-server]
+ols = { command = "ols", args = [] }
+
+[[language]]
+name = "rust"
+auto-format = true
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "zig"
+auto-format = true
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "c"
+scope = "source.c"
+injection-regex = "c"
+indent = { tab-width = 4, unit = "\t" }
+# auto-format = true
+
+[[language]]
+name = "cpp"
+scope = "source.cpp"
+injection-regex = "cpp"
+indent = { tab-width = 4, unit = "\t" }
+# auto-format = true
+
+[[language]]
+name = "javascript"
+scope = "source.js"
+injection-regex = "js"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "typescript"
+scope = "source.ts"
+injection-regex = "ts"
+indent = { tab-width = 4, unit = " " }
+auto-format = true
+
+[[language]]
+name = "php"
+scope = "source.php"
+auto-format = true
+
+[[language]]
+name = "html"
+scope = "source.html"
+injection-regex = "html"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "python"
+scope = "source.py"
+injection-regex = "python"
+indent = { tab-width = 8, unit = "    " }
+auto-format = true
+
+[[language]]
+name = "odin"
+scope = "scope.odin"
+file-types = ["odin"]
+roots = ["ols.json"]
+language-servers = ["ols"]
+comment-token = "//"
+injection-regex = "odin"
+indent = { tab-width = 4, unit = "    " }
+formatter = { command = "odinfmt", args = [ "-stdin", "true" ]}
+auto-format = true
+
+[[language]]
+name = "go"
+scope = "source.go"
+injection-regex = "go"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "css"
+scope = "source.css"
+injection-regex = "css"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "nasm"
+scope = "source.asm"
+injection-regex = "nasm"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "elixir"
+scope = "source.ex"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+formatter = { command = "mix format", args = ["--stdin"] }
+
+[[language]]
+name = "fsharp"
+scope = "source.fsx"
+indent = { tab-width = 4, unit = "\t" }
+auto-format = true
+
+[[language]]
+name = "markdown"
+scope = "source.md"
+indent = { tab-width = 4, unit = " " }
+auto-format = true

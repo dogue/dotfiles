@@ -1,0 +1,62 @@
+# A custom theme that doesn't cause retinal cancer
+theme = "nightman"
+
+[editor]
+line-number = "relative"   # Relative line numbers
+mouse = false              # Prevent mouse clicks from moving the cursor
+scrolloff = 5              # Keep this many lines below/above the cursor
+cursorline = true          # Highlight lines with a cursor
+bufferline = "multiple"    # Show list of open buffers up top if more than one currently open
+idle-timeout = 0           # Speed up autocomplete
+text-width = 145            # Maximum line length
+undercurl = true
+rulers = [145]
+
+[editor.soft-wrap]
+enable = true             # default on, toggled with :leader<W>
+wrap-at-text-width = true
+
+# Essentially have the cursor act as a mode indicator
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+# Show LSP messages below statusline
+[editor.lsp]
+display-messages = true
+display-signature-help-docs = true
+display-inlay-hints = false
+snippets = true
+
+# File picker is slow af on large directories (aka ~)
+[editor.file-picker]
+max-depth = 5
+hidden = true
+
+[editor.indent-guides]
+render = true
+
+[editor.statusline]
+right = ["diagnostics", "separator", "position", "separator", "file-type", "separator", "spacer", "version-control", "spacer"]
+separator = "|"
+
+[editor.smart-tab]
+enable = false
+
+# Shortcuts for quickly getting to the config/theme
+[keys.normal.space.e]
+e = ":open ~/.config/helix/config.toml"
+r = ":config-reload"
+t = ":open ~/.config/helix/themes/nightman.toml"
+l = ":open ~/.config/helix/languages.toml"
+
+# Leader keys
+[keys.normal.space]
+c = ":buffer-close"
+C = ":buffer-close!"
+i = ":toggle lsp.display-inlay-hints"
+n = ":new"
+x = ":w"
+W = ":toggle-option soft-wrap.enable"
+q = ":qa"
