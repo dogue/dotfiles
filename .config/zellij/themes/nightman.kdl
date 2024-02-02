@@ -1,0 +1,15 @@
+themes {
+	nightman {
+		fg "#665c54"
+		bg "#1a1a1a"
+		black "#1a1a1a"
+		red "#fb4934"
+		green "#d4879c"
+		yellow "#eebd35"
+		blue "#458588"
+		magenta "#b16286"
+		cyan "#83a598"
+		white "#7fa2ac"
+		orange "#8ec07c"
+	}
+}
