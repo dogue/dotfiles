@@ -1,0 +1,4 @@
+@theme "/home/dogue/.config/rofi/nightman.rasi"
+
+configuration {
+}
