@@ -36,7 +36,7 @@ The `bspwmrc` contained here is relatively simple and not too far from the defau
 
 ### Helix
 
-The Helix config should be fairly self-explanatory. The included nightman theme is a custom theme derived from the gruvbox palette. `languages.toml` is kind of a mess at the moment.
+The helix config should be fairly self-explanatory. The included nightman theme is a custom theme derived from the gruvbox palette. `languages.toml` is kind of a mess at the moment.
 
 ---
 
@@ -78,6 +78,6 @@ The config here just sets the theme. The interesting bit is the compact layout.
 
 ### ZSH
 
-Pretty standard stuff. I'm using zap to load plugins and using the [pure prompt](https://github.com/sindresorhus/pure). I broke out the environment configuration into separate files under `~/.config/zsh/`. It could do with a little bit of reorg but it's working so...
+Pretty standard stuff. I'm using [zap](https://github.com/zap-zsh/zap) to load plugins and using the [pure prompt](https://github.com/sindresorhus/pure). I broke out the environment configuration into separate files under `~/.config/zsh/`. It could do with a little bit of reorg but it's working so...
 
 
